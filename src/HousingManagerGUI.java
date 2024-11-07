@@ -34,6 +34,9 @@ public class HousingManagerGUI extends JFrame {
         JTextField roomsField = new JTextField();
         JTextField areaField = new JTextField();
 
+        ImageIcon icon = new ImageIcon("icon.png"); // Thay "new_icon.png" bằng đường dẫn tới file ảnh của bạn
+        setIconImage(icon.getImage());
+
         formPanel.add(new JLabel("ID:"));
         formPanel.add(idField);
         formPanel.add(new JLabel("Name:"));
